@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Activate spadinator",
-        "command": "spadinator:orderProps"
+        "command": "spadinator:order"
       }
     ]
   },
@@ -16,7 +16,7 @@
           "submenu": [
             {
               "label": "order props in alphabetical order",
-              "command": "spadinator:orderProps"
+              "command": "spadinator:order"
             }
           ]
         }
