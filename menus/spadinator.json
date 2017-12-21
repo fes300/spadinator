@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Activate spadinator",
+        "command": "spadinator:orderProps"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "spadinator",
+          "submenu": [
+            {
+              "label": "order props in alphabetical order",
+              "command": "spadinator:orderProps"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
